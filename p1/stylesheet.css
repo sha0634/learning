@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(47, 171, 47);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+#wlc{
+    padding-top: 60px;
+    font-size:xx-large;
+    font-weight: bold;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+#menu p{
+    padding: 15px;
+}
+#content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 550px;
+    
+}
+.bx{
+    height: 150px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 25px;
+}
+.bx p{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    margin-top: 25px;
+    color: rgb(47, 171, 47);
+    font-weight: bold;
+    padding: 20px;
+}
+#foot{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#foot p{
+    padding: 5px;
+    color: white;
+}
+.social{
+    color:  rgb(47, 171, 47);
+    padding: 2px;
+}
