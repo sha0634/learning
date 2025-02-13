@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-full w-full m-0 p-0 flex flex-col justify-center items-center">
+    <div id="main" class="bg-gray-300 w-2/3 h-auto rounded-2xl m-4 ">
+        <div id="title" class="font-bold text-4xl text-center m-8">TO DO</div>
+        <div id="list" class="flex flex-col justify-center items-center m-2">
+            <div id="t2" class="bg-white h-14 w-10/12 rounded-2xl flex justify-between items-center p-2 m-1.5">
+                <div id="pt1">Make a todo website</div>
+                <img src="dustbin-bin-trush-svgrepo-com.svg" alt="" class="size-6">
+            </div>
+            <div id="t2" class="bg-white h-14 w-10/12 rounded-2xl flex justify-between items-center p-2 m-1.5">
+                <div id="pt2">Complete assignment</div>
+                <img src="dustbin-bin-trush-svgrepo-com.svg" alt="" class="size-6">
+            </div>
+            <div id="t2" class="bg-white h-14 w-10/12 rounded-2xl flex justify-between items-center p-2 m-1.5">
+                <div id="pt3">Prepare for C.A</div>
+                <img src="dustbin-bin-trush-svgrepo-com.svg" alt="" class="size-6">
+            </div>
+            <div id="t2" class="bg-white h-14 w-10/12 rounded-2xl flex justify-between items-center p-2 m-1.5">
+                <div id="pt4">Practice analytical skills</div>
+                <img src="dustbin-bin-trush-svgrepo-com.svg" alt="" class="size-6">
+            </div>
+        </div>
+        <div id="farm" class="flex flex-col justify-center items-center m-2">
+            <form class="bg-white h-14 w-10/12 rounded-2xl flex justify-between items-center p-2 m-1.5" id="formadd">
+                <label for="task" class="w-0"></label>
+                <input type="text" placeholder="Enter the task" id="task" name="task" class="w-10/12 text-center">
+                <button type="submit" class="p-1">Add</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
